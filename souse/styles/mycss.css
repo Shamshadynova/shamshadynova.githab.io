@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poiret+One&family=Unkempt:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Poiret One';
+    background: linear-gradient(90deg, #ffffffb6 10%, #2e4a23d8 80%);
+}
+ .video-text, h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px;
+ }
+
+p {
+    color: rgba(0, 0, 0, 0.428);
+}
+.col-lg-6 p {
+    padding-right: 50px;
+}
+
+
+.nav-link {
+    color: rgb(154, 226, 139);
+}
+
+.navbar-nav .nav-link.active  {
+    color: rgb(82, 80, 80);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler  {
+    background-color: rgb(143, 142, 142);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 16px;
+    box-shadow: 7px 8px 71px 15px #000000;
+    background: linear-gradient(90deg, #ffffff7b 10%, #318611d8 80%);
+    color: rgba(37, 49, 35, 0.87);
+    
+}
+.card-text {
+    padding-bottom: 40px;
+}
+.card a {
+    text-decoration: none;
+    color: rgba(177, 212, 169, 0.983);
+    
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+  .btn-outline-success {
+    color: rgb(28, 62, 22);
+    background: linear-gradient(90deg, #ffffff7b 10%, #318611d8 80%) !important;
+    border: rgb(34, 39, 34) !important;
+
+  }
+  .btn {
+    margin-top: auto;
+  }
+
+  .btn-primary, 
+ .btn-outline-success:hover
+ {
+    color: rgb(6, 140, 73);
+    box-shadow: 7px 8px 71px 15px #000000;
+    background: linear-gradient(270deg, rgb(82, 184, 82) 0%, rgb(94, 111, 62) 10%);
+    border: rgb(21, 38, 21);
+}
+
+.sidebar {
+    color: rgba(49, 71, 71, 0.562);
+    box-shadow: 7px 8px 71px 15px #6d9508;
+    background: linear-gradient(90deg, #8dac33cd 0%, #bdde72 74%);
+    border-radius: 16px;
+}
+.slide, 
+.footer-text {
+    color: rgba(221, 235, 89, 0.497);
+    margin: auto auto;
+}
+footer {
+    background: linear-gradient(90deg, #8dac33cd 0%, #638515 74%);
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    animation: myAnim 2s linear 0s infinite normal forwards;
+
+}
+
+@keyframes myAnim {
+    0%,
+    100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 0;
+    }
+   
+    10% {
+    transform: rotate(2deg);
+    }
+   
+    20%,
+    40%,
+    60% {
+    transform: rotate(-4deg);
+    }
+   
+    30%,
+    50%,
+    70% {
+    transform: rotate(4deg);
+    }
+   
+    80% {
+    transform: rotate(-2deg);
+    }
+   
+    90% {
+    transform: rotate(2deg);
+    }
+   }
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}

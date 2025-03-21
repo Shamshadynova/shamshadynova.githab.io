@@ -1,0 +1,40 @@
+.bgvideo  {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover; /* если видео не помещается в контейнер, 
+    то поля будут обрезаны и будет центровано 
+    по данному контейнеру */
+    z-index: 1;
+    object-position: bottom;
+}
+
+/* .effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover; /* если видео не помещается в контейнер, 
+    то поля будут обрезаны и будет центровано 
+    по данному контейнеру */
+    /* z-index: 12;
+    object-position: bottom;
+    background-color: rgba(121, 150, 81, 0.61);
+} */ *
+
+.video-text {
+    color: black;
+    z-index: 2;
+}
